@@ -2,7 +2,7 @@
 
 A machine learning project that predicts flight delays using logistic regression and identifies flight operational patterns through K-means clustering.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project addresses the critical aviation industry challenge of flight delay prediction by developing a predictive model using machine learning techniques. The analysis combines:
 
@@ -10,14 +10,14 @@ This project addresses the critical aviation industry challenge of flight delay 
 - **K-means Clustering** for flight pattern identification
 - **Statistical Analysis** for feature importance evaluation
 
-## 📊 Key Results
+##  Key Results
 
 - **Fog conditions** show highest delay probability (~57%)
 - **Flight duration** significantly impacts delay likelihood (p = 0.0365)
 - **Four distinct flight patterns** identified through clustering
 - **Weather conditions** are the strongest predictors of delays
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 flight-delay-prediction/
@@ -39,7 +39,7 @@ flight-delay-prediction/
 ├── README.md
 ```
 
-## 📈 Dataset Description
+##  Dataset Description
 
 The dataset contains **200 flight records** with the following features:
 
@@ -53,7 +53,7 @@ The dataset contains **200 flight records** with the following features:
 | Weather_Conditions | Categorical | Weather conditions (Clear, Fog, Rain, Snow, Storm, Windy) |
 | Delayed | Binary | Delay status (0 = On-time, 1 = Delayed) |
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **R** - Primary programming language
 - **Libraries**: 
@@ -61,7 +61,7 @@ The dataset contains **200 flight records** with the following features:
   - `caret` - Machine learning and model evaluation
   - `stats` - Statistical analysis
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -86,7 +86,7 @@ install.packages(c("tidyverse", "caret"))
 flights <- read.csv("data/flights_200.csv")
 ```
 
-## 📋 Usage
+##  Usage
 
 ### 1. Run Logistic Regression Model
 
@@ -137,7 +137,7 @@ sample_data <- data.frame(
 predictions <- predict(glm_model, newdata = sample_data, type = "response")
 ```
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Statistical Significance
 
@@ -158,7 +158,7 @@ Four distinct flight operational patterns identified:
 3. **Cluster 3**: Short flights (60-150 min) on early weekdays
 4. **Cluster 4**: Medium-long flights (140-240 min) mid-to-late week
 
-## 🎯 Business Applications
+## Business Applications
 
 ### Operational Benefits
 - **Proactive Resource Allocation**: Adjust crew scheduling based on delay predictions
@@ -179,7 +179,7 @@ The project includes several key visualisations:
 3. **Flight Duration Distribution**: Analyzes duration patterns by delay status
 4. **Elbow Method Plot**: Demonstrates optimal cluster selection
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Recommended Improvements
 - **Expanded Dataset**: Incorporate larger, multi-seasonal datasets
@@ -192,11 +192,11 @@ The project includes several key visualisations:
 - Hour-of-day effects not captured
 - External factors (ATC delays, mechanical issues) not included
 
-## 📚 Documentation
+## Documentation
 
 Detailed analysis and findings are available in [SUMMARY.md](docs/SUMMARY.md).
 
-## 👥 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -204,17 +204,17 @@ Detailed analysis and findings are available in [SUMMARY.md](docs/SUMMARY.md).
 4. Push to the branch 
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Aviation industry data insights
 - R community for excellent machine learning packages
 - Statistical analysis methodologies
 
-## 📞 Contact
+##  Contact
 
 Oreoluwa Anjorin - anjorinoreoluwa19@gmail.com
 
