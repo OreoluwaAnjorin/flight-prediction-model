@@ -25,19 +25,18 @@ flight-delay-prediction/
 │   ├── flights_200.csv
 │   └── flights_with_clusters.csv
 ├── src/
-│   ├── logistic_regression_model.R
-│   ├── kmeans_clustering.R
-│   ├── optimal_clusters.R
-│   └── prediction_example.R
-├── visualizations/
-│   ├── flight_clusters_plot.png
-│   ├── delay_rate_by_weather.png
-│   ├── flight_duration_distribution.png
-│   └── elbow_method_plot.png
+│   ├── FLIGHT PROJECT CODE GLM MODEL.R
+│   ├── FLIGHT PROJECT CODE KMEANS CLUSTER.R
+│   ├── Determining the Optimal Number of Clusters.R
+│   └── Predicting with the Logistic Regression Model.R
+├── visualisations/
+│   ├── Clusters Visualization.png
+│   ├── Delay Rate by Weather Conditions.png
+│   ├── FLIGHT DISTRIBUTION DURATION BY DELAY STATUS.png
+│   └── Rplot for Optimal Kmeans.png
 ├── docs/
 │   └── SUMMARY.md
 ├── README.md
-└── requirements.txt
 ```
 
 ## 📈 Dataset Description
@@ -58,7 +57,7 @@ The dataset contains **200 flight records** with the following features:
 
 - **R** - Primary programming language
 - **Libraries**: 
-  - `tidyverse` - Data manipulation and visualization
+  - `tidyverse` - Data manipulation and visualisation
   - `caret` - Machine learning and model evaluation
   - `stats` - Statistical analysis
 
@@ -98,7 +97,7 @@ source("src/logistic_regression_model.R")
 This will:
 - Build the logistic regression model
 - Perform train/test split (70/30)
-- Generate predictions and confusion matrix
+- Generate predictions and a confusion matrix
 - Create synthetic test data for validation
 
 ### 2. Perform K-means Clustering
@@ -108,10 +107,10 @@ source("src/kmeans_clustering.R")
 ```
 
 This will:
-- Standardize the data
+- Standardise the data
 - Apply K-means clustering (k=4)
 - Generate cluster assignments
-- Export results for visualization
+- Export results for visualisation
 
 ### 3. Determine Optimal Clusters
 
@@ -173,7 +172,7 @@ Four distinct flight operational patterns identified:
 
 ## 📈 Visualizations
 
-The project includes several key visualizations:
+The project includes several key visualisations:
 
 1. **Flight Clusters Plot**: Shows the four operational patterns
 2. **Delay Rate by Weather**: Compares delay rates across weather conditions
@@ -185,11 +184,11 @@ The project includes several key visualizations:
 ### Recommended Improvements
 - **Expanded Dataset**: Incorporate larger, multi-seasonal datasets
 - **Additional Features**: Airport congestion, aircraft type, crew experience
-- **Advanced Modeling**: Ensemble methods (Random Forest, Gradient Boosting)
+- **Advanced Modelling**: Ensemble methods (Random Forest, Gradient Boosting)
 - **Real-time Integration**: Live weather and air traffic data feeds
 
 ### Limitations
-- Dataset size (200 flights) may limit generalizability
+- The dataset size (200 flights) may limit generalizability
 - Hour-of-day effects not captured
 - External factors (ATC delays, mechanical issues) not included
 
