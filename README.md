@@ -72,7 +72,7 @@ The dataset contains **200 flight records** with the following features:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/flight-delay-prediction.git
+git clone https://github.com/OreoluwaAnjorin/flight-prediction-model.git
 cd flight-delay-prediction
 ```
 
