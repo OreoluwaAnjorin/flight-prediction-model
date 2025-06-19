@@ -219,7 +219,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Oreoluwa Anjorin - anjorinoreoluwa19@gmail.com
 
-Project Link: [https://github.com/yourusername/flight-delay-prediction](https://github.com/yourusername/flight-delay-prediction)
+Project Link:https://github.com/OreoluwaAnjorin/flight-prediction-model
 
 ---
 
