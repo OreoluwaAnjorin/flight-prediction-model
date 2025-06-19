@@ -91,7 +91,7 @@ flights <- read.csv("data/flights_200.csv")
 ### 1. Run Logistic Regression Model
 
 ```r
-source("src/logistic_regression_model.R")
+source("src/FLIGHT PROJECT CODE GLM MODEL.R")
 ```
 
 This will:
@@ -103,7 +103,7 @@ This will:
 ### 2. Perform K-means Clustering
 
 ```r
-source("src/kmeans_clustering.R")
+source("src/FLIGHT PROJECT CODE KMEANS CLUSTER.R")
 ```
 
 This will:
@@ -115,7 +115,7 @@ This will:
 ### 3. Determine Optimal Clusters
 
 ```r
-source("src/optimal_clusters.R")
+source("src/Determining the Optimal Number of Clusters.R")
 ```
 
 This will create an elbow plot to determine the optimal number of clusters.
@@ -123,7 +123,7 @@ This will create an elbow plot to determine the optimal number of clusters.
 ### 4. Make Predictions
 
 ```r
-source("src/prediction_example.R")
+source("src/Predicting with the Logistic Regression Model.R")
 ```
 
 Example prediction for new flights:
